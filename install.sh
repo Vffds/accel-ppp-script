@@ -10,6 +10,9 @@ apt update
 # Ставлю netselect-apt, чтобы  найти зеркало побыстрее
 apt install netselect-apt
 
+# Ищу быстрое зеркало
+netselect-apt
+
 # Обновляю список пакетов
 apt update
 
