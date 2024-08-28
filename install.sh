@@ -20,7 +20,7 @@ mkdir /opt/accel-ppp-code/build
 cd /opt/accel-ppp-code/build/
 
 # Конфигурирую с опциями по-умолчанию
-cmake -DBUILD_IPOE_DRIVER=TRUE -DBUILD_VLAN_MON_DRIVER=TRUE -DCMAKE_INSTALL_PREFIX=/usr -DKDIR=/usr/src/linux-headers-4.19.0-23-amd64 -DLUA=TRUE -DCPACK_TYPE=Debian10 ..
+cmake -DBUILD_IPOE_DRIVER=TRUE -DBUILD_VLAN_MON_DRIVER=TRUE -DCMAKE_INSTALL_PREFIX=/usr -DKDIR=/usr/src/linux-headers-4.19.0-27-amd64 -DLUA=TRUE -DCPACK_TYPE=Debian10 ..
 
 # Компилирую
 make
