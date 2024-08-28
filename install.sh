@@ -35,7 +35,7 @@ dpkg -i accel-ppp.deb
 mv /etc/accel-ppp.conf.dist /etc/accel-ppp.conf
 
 # Выключаю радиус
-sed -i 's/#radius/radius/' /etc/accel-ppp.conf
+sed -i 's/\bradius\b/#radius/' /etc/accel-ppp.conf
 
 # Включаю локальные учётки
 sed -i 's/#chap-secrets/chap-secrets/' /etc/accel-ppp.conf
