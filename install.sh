@@ -7,15 +7,6 @@ set -e
 # Обновляю список пакетов
 apt update
 
-# Ставлю netselect-apt, чтобы  найти зеркало побыстрее
-apt install netselect-apt
-
-# Ищу быстрое зеркало
-netselect-apt
-
-# Обновляю список пакетов
-apt update
-
 # Устанавливаю то, что нужно для компиляции и запуска
 apt install -y build-essential cmake gcc git libpcre3-dev libssl-dev liblua5.1-0-dev linux-headers-amd64
 
